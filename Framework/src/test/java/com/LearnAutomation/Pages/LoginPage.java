@@ -15,11 +15,14 @@ public class LoginPage {
 		this.driver=ldriver;
 	}
 	
-	@FindBy(xpath="//span[normalize-space()='Log In']") WebElement loginButton;
+	//@FindBy(xpath="//span[normalize-space()='Log In']") WebElement loginButton;
+	//@FindBy(xpath="//a[normalize-space()='Login']") WebElement loginButton;
+	@FindBy(xpath="//li[@class='active']") WebElement loginButton;
 	
 	@FindBy(xpath="//input[@name='email']") WebElement uname;
 	
-	@FindBy(name="password") WebElement pass;
+	//@FindBy(name="password") WebElement pass;
+	@FindBy(xpath="//input[@name='password']") WebElement pass;
 	
 	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") WebElement loginButton1;
 	

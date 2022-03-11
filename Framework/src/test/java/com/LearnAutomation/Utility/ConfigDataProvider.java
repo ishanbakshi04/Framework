@@ -12,7 +12,7 @@ public class ConfigDataProvider {
 
 	public ConfigDataProvider() {
 
-		File src = new File("./Config/ Config.properties");
+		File src = new File("./Config/Config.properties");
 		
 		try {
 			FileInputStream fis = new FileInputStream(src);
