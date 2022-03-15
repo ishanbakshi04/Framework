@@ -65,7 +65,7 @@
 				
 				
 					<suiteXmlFiles>
-						<suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile>
+						<suiteXmlFile>XMLFiles/${xmlFiles}/</suiteXmlFile>
 					</suiteXmlFiles>
 					
 					
