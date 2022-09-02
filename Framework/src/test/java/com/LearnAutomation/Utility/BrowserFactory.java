@@ -2,6 +2,7 @@ package com.LearnAutomation.Utility;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -38,7 +39,7 @@ public class BrowserFactory {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(appURL);
-		driver.manage().timeouts().implicitlyWait(30 , TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30 , TimeUnit.SECONDS);	
 		
 		return driver;		
 		
